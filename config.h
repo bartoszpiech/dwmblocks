@@ -11,6 +11,7 @@ const Block blocks[] = {
 	//BLOCK("sb-mic",     0,    26),
 	//BLOCK("sb-record",  0,    27),
 	//BLOCK("sb-volume",  0,    22),
-	BLOCK("/home/barti/.local/bin/statusbar/sb_clock", 5,    23),
+	BLOCK("/home/barti/.local/bin/statusbar/sb_clock", 60,    23),
+	BLOCK("/home/barti/.local/bin/statusbar/sb_battery", 5,    24),
 	//BLOCK("/sb_clock",    1,    24)
 };

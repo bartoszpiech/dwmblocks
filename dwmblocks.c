@@ -6,11 +6,10 @@
 #include <string.h>
 #include <sys/epoll.h>
 #include <sys/signalfd.h>
-// OpenBSD
-//#include <
 #include <time.h>
 #include <unistd.h>
 
+// OpenBSD
 #define SIGRTMIN 32
 #define SIGRTMAX 64
 
