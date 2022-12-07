@@ -6,8 +6,13 @@
 #include <string.h>
 #include <sys/epoll.h>
 #include <sys/signalfd.h>
+// OpenBSD
+//#include <
 #include <time.h>
 #include <unistd.h>
+
+#define SIGRTMIN 32
+#define SIGRTMAX 64
 
 #define LEN(arr) (sizeof(arr) / sizeof(arr[0]))
 #define MAX(a, b) (a > b ? a : b)
